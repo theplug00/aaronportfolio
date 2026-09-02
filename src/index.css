@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0a0f0d;
-  --color-pine: #0f1613;
-  --color-moss: #141e19;
-  --color-fern: #1a2921;
-  --color-sage: #a8c3ae;
-  --color-mint: #6f9a7d;
-  --color-cream: #ede9dd;
-  --color-fog: #93a096;
-  --color-gold: #d6b26e;
+  --color-ink: #050505;
+  --color-pine: #0b0b0b;
+  --color-moss: #111111;
+  --color-fern: #1b1b1b;
+  --color-sage: #ffffff;
+  --color-mint: #8f8f8f;
+  --color-cream: #f4f4f2;
+  --color-fog: #8d8d8a;
+  --color-gold: #c9c9c4;
 
   --font-display: "Clash Display", "Satoshi", sans-serif;
   --font-body: "Satoshi", "Helvetica Neue", sans-serif;
@@ -64,8 +64,17 @@ body {
   color: transparent;
 }
 .text-outline-cream {
-  -webkit-text-stroke: 1.5px rgba(237, 233, 221, 0.55);
+  -webkit-text-stroke: 1.5px rgba(244, 244, 242, 0.5);
   color: transparent;
+}
+.text-outline-ink {
+  -webkit-text-stroke: 1.5px rgba(5, 5, 5, 0.9);
+  color: transparent;
+}
+
+/* strict black & white imagery */
+img {
+  filter: grayscale(1) contrast(1.06);
 }
 
 .noise-overlay {

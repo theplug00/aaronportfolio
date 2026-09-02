@@ -123,7 +123,7 @@ export default function Contact() {
                     <Magnetic className="w-full">
                       <button
                         type="submit"
-                        className="group flex w-full items-center justify-center gap-3 rounded-full bg-sage px-8 py-4 font-display text-sm font-semibold uppercase tracking-[0.16em] text-ink transition-colors duration-300 hover:bg-gold"
+                        className="group flex w-full items-center justify-center gap-3 rounded-full bg-sage px-8 py-4 font-display text-sm font-semibold uppercase tracking-[0.16em] text-ink transition-colors duration-300 hover:bg-cream"
                       >
                         Send it — stress-free
                         <span className="transition-transform duration-300 group-hover:translate-x-1.5">

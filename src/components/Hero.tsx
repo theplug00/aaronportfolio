@@ -158,7 +158,7 @@ export default function Hero() {
             <Magnetic>
               <a
                 href="#work"
-                className="group flex items-center gap-3 rounded-full bg-sage px-7 py-4 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-cream"
+                className="group flex items-center gap-3 rounded-full bg-sage px-7 py-4 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-ink hover:text-cream"
               >
                 See the work
                 <span className="transition-transform duration-300 group-hover:translate-x-1.5">
