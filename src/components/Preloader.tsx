@@ -55,7 +55,7 @@ export default function Preloader({ onGone }: { onGone: () => void }) {
       aria-hidden={leaving}
     >
       {/* progress hairline */}
-      <div className="absolute left-0 top-0 h-[2px] w-full bg-cream/5">
+      <div className="absolute left-0 top-0 h-[2px] w-full bg-cream/10">
         <div
           className="h-full bg-sage transition-[width] duration-150 ease-linear"
           style={{ width: `${progress}%` }}

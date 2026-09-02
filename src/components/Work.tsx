@@ -36,7 +36,7 @@ function CaseModal({ project, onClose }: { project: Project; onClose: () => void
       aria-label={`${project.name} case study`}
     >
       <div
-        className="fixed inset-0 bg-ink/85 backdrop-blur-md"
+        className="fixed inset-0 bg-[#0a0a0a]/85 backdrop-blur-md"
         onClick={handleClose}
         aria-hidden="true"
       />
@@ -55,7 +55,7 @@ function CaseModal({ project, onClose }: { project: Project; onClose: () => void
             <div className="absolute inset-0 bg-gradient-to-t from-pine via-pine/20 to-transparent" />
             <button
               onClick={handleClose}
-              className="glass absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full text-cream transition-all duration-300 hover:rotate-90 hover:bg-sage hover:text-ink"
+              className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full bg-cream/90 text-ink backdrop-blur-md transition-all duration-300 hover:rotate-90 hover:bg-cream"
               aria-label="Close case study"
             >
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" aria-hidden="true">
@@ -116,7 +116,7 @@ function CaseModal({ project, onClose }: { project: Project; onClose: () => void
               <a
                 href="#contact"
                 onClick={handleClose}
-                className="group flex items-center gap-3 rounded-full bg-sage px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-[0.12em] text-ink transition-colors duration-300 hover:bg-gold"
+                className="group flex items-center gap-3 rounded-full bg-sage px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-[0.12em] text-ink transition-colors duration-300 hover:bg-cream"
               >
                 Start something similar
                 <span className="transition-transform duration-300 group-hover:translate-x-1.5">
@@ -214,11 +214,11 @@ export default function Work() {
                         i % 2 ? "md:object-right" : ""
                       }`}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent opacity-60 transition-opacity duration-500 group-hover:opacity-30" />
-                    <span className="glass absolute left-5 top-5 rounded-full px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-cream">
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/60 via-transparent to-transparent opacity-60 transition-opacity duration-500 group-hover:opacity-30" />
+                    <span className="absolute left-5 top-5 rounded-full bg-cream/90 px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-ink backdrop-blur-md">
                       {p.sector}
                     </span>
-                    <span className="absolute bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full bg-sage text-ink transition-all duration-500 group-hover:rotate-45 group-hover:bg-gold">
+                    <span className="absolute bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full bg-sage text-ink transition-all duration-500 group-hover:rotate-45 group-hover:bg-cream">
                       <ArrowIcon className="h-5 w-5 -rotate-45" />
                     </span>
                   </div>

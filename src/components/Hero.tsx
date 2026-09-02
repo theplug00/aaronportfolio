@@ -27,16 +27,16 @@ function Vitals() {
     <div ref={ref} className="relative">
       {/* breathing orb behind the panel */}
       <div
-        className="animate-breathe absolute -right-10 -top-14 -z-10 h-72 w-72 rounded-full bg-sage/20 blur-3xl"
+        className="animate-breathe absolute -right-10 -top-14 -z-10 h-72 w-72 rounded-full bg-mint/25 blur-3xl"
         aria-hidden="true"
       />
       <div
-        className="animate-breathe absolute -bottom-16 -left-10 -z-10 h-56 w-56 rounded-full bg-gold/10 blur-3xl"
+        className="animate-breathe absolute -bottom-16 -left-10 -z-10 h-56 w-56 rounded-full bg-gold/15 blur-3xl"
         style={{ animationDelay: "2.5s" }}
         aria-hidden="true"
       />
 
-      <div className="glass rounded-[22px] p-6 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+      <div className="glass rounded-[22px] p-6 shadow-[0_30px_70px_rgba(0,0,0,0.12)]">
         <div className="mb-5 flex items-center justify-between">
           <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-fog">
             Live vitals
@@ -158,7 +158,7 @@ export default function Hero() {
             <Magnetic>
               <a
                 href="#work"
-                className="group flex items-center gap-3 rounded-full bg-sage px-7 py-4 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-ink hover:text-cream"
+                className="group flex items-center gap-3 rounded-full bg-sage px-7 py-4 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-cream"
               >
                 See the work
                 <span className="transition-transform duration-300 group-hover:translate-x-1.5">

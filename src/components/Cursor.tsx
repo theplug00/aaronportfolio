@@ -68,7 +68,7 @@ export default function Cursor() {
       </div>
       <div
         ref={dotRef}
-        className="pointer-events-none fixed left-0 top-0 z-[91] -ml-[3px] -mt-[3px] h-1.5 w-1.5 rounded-full bg-gold"
+        className="pointer-events-none fixed left-0 top-0 z-[91] -ml-[3px] -mt-[3px] h-1.5 w-1.5 rounded-full bg-sage"
       />
     </>
   );

@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden border-t border-cream/8 bg-pine/60">
       <div
-        className="absolute left-1/2 top-0 h-[26rem] w-[46rem] -translate-x-1/2 rounded-full bg-sage/[0.07] blur-[130px]"
+        className="absolute left-1/2 top-0 h-[26rem] w-[46rem] -translate-x-1/2 rounded-full bg-mint/20 blur-[130px]"
         aria-hidden="true"
       />
 

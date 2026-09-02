@@ -43,7 +43,7 @@ export default function Nav() {
 
       <header
         className={`fixed left-1/2 top-4 z-[71] w-[calc(100%-2rem)] max-w-6xl -translate-x-1/2 transition-all duration-500 ${
-          scrolled ? "glass rounded-full shadow-[0_8px_40px_rgba(0,0,0,0.35)]" : "bg-transparent"
+          scrolled ? "glass rounded-full shadow-[0_8px_40px_rgba(0,0,0,0.1)]" : "bg-transparent"
         }`}
       >
         <nav className="flex items-center justify-between px-5 py-3 md:px-7">

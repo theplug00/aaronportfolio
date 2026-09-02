@@ -93,7 +93,7 @@ export default function Studio() {
                     className="animate-kenburns aspect-[4/3] w-full object-cover"
                   />
                 </div>
-                <figcaption className="glass absolute bottom-4 left-4 rounded-full px-5 py-2 font-mono text-[10px] uppercase tracking-[0.22em] text-cream">
+                <figcaption className="absolute bottom-4 left-4 rounded-full bg-cream/90 px-5 py-2 font-mono text-[10px] uppercase tracking-[0.22em] text-ink backdrop-blur-md">
                   Where the calm is manufactured
                 </figcaption>
               </figure>
