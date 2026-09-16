@@ -123,10 +123,10 @@ export default function Nav() {
           ))}
         </ul>
         <div className="flex items-end justify-between font-mono text-[11px] uppercase tracking-[0.25em] text-fog">
-          <a href="mailto:hello@aarondev.studio" className="link-sweep text-sage">
-            hello@aarondev.studio
+          <a href="mailto:godsona504@gmail.com" className="link-sweep text-sage">
+            godsona504@gmail.com
           </a>
-          <span>Lagos · worldwide</span>
+          <span>Accra · Worldwide</span>
         </div>
       </div>
     </>
