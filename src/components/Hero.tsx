@@ -167,10 +167,10 @@ export default function Hero() {
               </a>
             </Magnetic>
             <a
-              href="mailto:hello@aarondev.studio"
+              href="mailto:godsona504@gmail.com"
               className="link-sweep font-mono text-sm tracking-[0.08em] text-sage"
             >
-              hello@aarondev.studio
+              godsona504@gmail.com
             </a>
           </div>
         </div>
