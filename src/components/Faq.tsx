@@ -22,13 +22,13 @@ export default function Faq() {
             </h2>
             <p className="mt-7 max-w-sm leading-relaxed text-fog">
               The questions every new client asks — answered here so our first
-              call can be about your project, not our process.
+              call can be about your project.
             </p>
             <a
-              href="mailto:hello@aarondev.studio"
+              href="mailto:godsona504@gmail.com"
               className="link-sweep mt-8 inline-block font-mono text-sm tracking-[0.06em] text-sage"
             >
-              Something else? → hello@aarondev.studio
+              Something else? → godsona504@gmail.com
             </a>
           </div>
         </div>

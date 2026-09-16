@@ -157,10 +157,10 @@ export default function Contact() {
             <p>© 2026 Aaron Dev — built calm,</p>
             <ul className="flex flex-wrap gap-6">
               {[
-                { label: "GitHub", href: "https://github.com" },
-                { label: "LinkedIn", href: "https://www.linkedin.com" },
-                { label: "X", href: "https://x.com" },
-                { label: "Dribbble", href: "https://dribbble.com" },
+                { label: "Instagram", href: "https://www.instagram.com/99.freaky?stkn=MXNnM3N2emV2Y3djZg%3D%3D&utm_source=qr" },
+                { label: "LinkedIn", href: "" },
+                { label: "X", href: "https://x.com/bigdripo?s=11" },
+                { label: "Facebook", href: "https://www.facebook.com/share/1J46HnrynL/?mibextid=wwXIfr" },
               ].map((s) => (
                 <li key={s.label}>
                   <a
@@ -174,9 +174,7 @@ export default function Contact() {
                 </li>
               ))}
             </ul>
-            <p>
-              Stress index: <span className="text-sage">0.0%</span>
-            </p>
+            
           </div>
         </footer>
       </div>
