@@ -7,7 +7,7 @@ const inputClass =
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
-  const time = useClock("Africa/Lagos");
+  const time = useClock("Africa/Accra");
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -38,10 +38,10 @@ export default function Contact() {
             <div>
               <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.3em] text-fog">Email us</p>
               <a
-                href="mailto:hello@aarondev.studio"
+                href="mailto:godsona504@gmail.com"
                 className="link-sweep font-display text-2xl font-semibold tracking-tight text-cream transition-colors hover:text-sage md:text-4xl"
               >
-                hello@aarondev.studio
+                godsona504@gmail.com
               </a>
             </div>
             <div className="grid grid-cols-2 gap-8">
@@ -53,15 +53,15 @@ export default function Contact() {
               <div>
                 <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.3em] text-fog">Studio time</p>
                 <p className="font-display text-xl font-medium tabular-nums">
-                  {time} <span className="text-sage">WAT</span>
+                  {time} <span className="text-sage">GMT</span>
                 </p>
-                <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-fog">Lagos — remote worldwide</p>
+                <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-fog">Accra — remote worldwide</p>
               </div>
             </div>
             <div className="glass inline-flex items-center gap-3 rounded-full px-5 py-3">
               <span className="h-2 w-2 rounded-full bg-sage animate-pulse-soft" />
               <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-sage">
-                2 build slots open — Q3 2026
+                2 build slots open.
               </span>
             </div>
           </div>
@@ -96,14 +96,14 @@ export default function Contact() {
                   </label>
                   <label className="block">
                     <span className="mb-1 block font-mono text-[10px] uppercase tracking-[0.28em] text-fog">Email</span>
-                    <input type="email" name="email" required placeholder="ada@company.com" className={inputClass} />
+                    <input type="email" name="email" required placeholder="ada@gmail.com" className={inputClass} />
                   </label>
                   <label className="block md:col-span-2">
                     <span className="mb-1 block font-mono text-[10px] uppercase tracking-[0.28em] text-fog">Budget</span>
                     <select name="budget" className={`${inputClass} appearance-none`} defaultValue="$8k – $25k">
-                      <option className="bg-pine">Under $8k</option>
-                      <option className="bg-pine">$8k – $25k</option>
-                      <option className="bg-pine">$25k+</option>
+                      <option className="bg-pine">Under ¢2k</option>
+                      <option className="bg-pine">¢3k – ¢5k</option>
+                      <option className="bg-pine">¢6k+</option>
                       <option className="bg-pine">Not sure yet</option>
                     </select>
                   </label>
@@ -154,7 +154,7 @@ export default function Contact() {
           </div>
 
           <div className="mt-10 flex flex-col gap-6 border-t border-cream/10 py-8 font-mono text-[11px] uppercase tracking-[0.2em] text-fog md:flex-row md:items-center md:justify-between">
-            <p>© 2026 Aaron Dev Studio — built calm, no templates harmed</p>
+            <p>© 2026 Aaron Dev — built calm,</p>
             <ul className="flex flex-wrap gap-6">
               {[
                 { label: "GitHub", href: "https://github.com" },
