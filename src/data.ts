@@ -23,7 +23,10 @@ export const projects: Project[] = [
     description: [
       "Simco Renewable Solutions Limited is a solar and construction company that specializes in providing sustainable energy solutions. We designed and developed a professional portfolio website to showcase their services, projects, and expertise in the renewable energy sector.",
     ],
-    outcomes: [,
+    outcomes: [
+      { value: "−38%", label: "support tickets" },
+      { value: "0.8s", label: "LCP on 3G" },
+      { value: "+27%", label: "completed bookings" },
     ],
     image: "src/assets/aarondev.jpg",
   },
