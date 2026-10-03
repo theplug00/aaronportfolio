@@ -102,7 +102,7 @@ export const services: Service[] = [
   {
     n: "01",
     title: "Web applications",
-    body: "SaaS products, dashboards and internal tools built in React and TypeScript. Component-driven, tested, and documented so your next hire ramps up in days, not months.",
+    body: "SaaS products, dashboards and internal tools built in React and TypeScript. Component-driven, tested, and documented",
     tags: ["React", "Next.js", "TypeScript", "Testing"],
     timeline: "6–12 weeks",
   },
@@ -111,25 +111,25 @@ export const services: Service[] = [
     title: "Marketing & brand sites",
     body: "Editorial sites that load before your visitor finishes blinking. CMS-wired, SEO-tuned, and built so your team can ship pages without filing a ticket.",
     tags: ["Editorial", "CMS", "SEO 95+", "A/B ready"],
-    timeline: "3–5 weeks",
+    timeline: "1–2 weeks",
   },
   {
     n: "03",
-    title: "Design systems",
+    title: "Graphic Design",
     body: "Tokens, component libraries and living documentation in Storybook. One source of truth that ends the eternal 'which button is the real button' debate.",
-    tags: ["Tokens", "Storybook", "Figma sync", "Docs"],
-    timeline: "4–8 weeks",
+    tags: ["Canva", "Photoshop", "Figma sync", "Brand guidelines"],
+    timeline: "1 week",
   },
   {
     n: "04",
-    title: "Motion & interaction",
-    body: "Micro-interactions, scroll choreography and WebGL moments — engineered to a performance budget, because beauty that janks is just stress with better lighting.",
-    tags: ["GSAP", "Framer Motion", "WebGL", "Lottie"],
-    timeline: "2–6 weeks",
+    title: "Motion Effects",
+    body: "Subtle, performance-conscious motion design that guides attention.",
+    tags: ["CapCut", "Premiere Pro", "After Effects", "GSAP"],
+    timeline: "1–2 weeks",
   },
   {
     n: "05",
-    title: "Performance rescue",
+    title: "Performance Rescue",
     body: "We inherit the site everyone's afraid to touch, audit it forensically, and bring Core Web Vitals back to green. You get a before/after report you'll want to frame.",
     tags: ["Audits", "Core Web Vitals", "Bundle diet", "CWV green"],
     timeline: "1–3 weeks",
@@ -180,29 +180,29 @@ export const stats = [
 export const testimonials = [
   {
     quote: "Aaron's team shipped our rebuild two weeks early. I never once wondered what was happening — in twelve years of shipping software, that has literally never happened before.",
-    name: "Maya Chen",
-    role: "COO, Fernway",
+    name: "Maya Patel",
+    role: "Founder, Fernway",
   },
   {
     quote: "The dashboard is so fast our traders asked if it was cached. It wasn't. They now describe checking it as 'weirdly relaxing', which is not a phrase I expected in fintech.",
-    name: "Dmitri Volkov",
-    role: "Head of Product, OrbitPay",
+    name: "Richard Quaye",
+    role: "Head of Product, CITS Learning",
   },
   {
     quote: "They treat stress like a bug — reported, reproduced, fixed. Our support queue dropped by a third and my blood pressure followed. Can't recommend them enough.",
-    name: "Sofia Marques",
-    role: "Founder, Halcyon",
+    name: "Simon Yeboah",
+    role: "Founder, Simco Renewable Solutions Limited",
   },
 ];
 
 export const faqs = [
   {
     q: "What does a project cost?",
-    a: "Marketing sites start around $8k, web applications around $25k, and performance rescues from $3k. Every quote is fixed in writing after the Blueprint phase — the number you sign is the number you pay.",
+    a: "Marketing sites start around ¢2k, web applications around ¢2k, and performance rescues from ¢3k.",
   },
   {
     q: "How long until launch?",
-    a: "Three to five weeks for a marketing site, six to twelve for an application. You'll have a live staging link within three days of kickoff, so 'how's it going?' is never a question — it's a URL.",
+    a: "Two to Three weeks for a marketing site, Three to Four for an application. You'll have a live staging link within three days of kickoff.",
   },
   {
     q: "Do you work with our in-house designers?",
@@ -218,19 +218,18 @@ export const faqs = [
   },
 ];
 
-export const clients = ["Halcyon", "Fernway", "OrbitPay", "Kavella", "Nimbus Labs", "Terra & Co", "Bluebird Health", "Arcade Audio"];
+export const clients = ["Simco Renewable Solutions Limited", "Catalog", "Dynamo", "Kavella", "Nimbus Labs", "Terra & Co", "Bluebird Health", "Arcade Audio"];
 
-export const tools = ["React", "TypeScript", "Next.js", "GSAP", "Framer Motion", "Three.js", "Tailwind", "Figma", "Storybook", "D3", "Vite", "Shopify Hydrogen"];
+export const tools = ["React", "TypeScript", "Next.js", "Canva", "Photoshop", "HTML & Javascript", "Tailwind", "Figma", "Storybook", "Photoshop", "Vite", "Php"];
 
 export const tickerItems = [
   "TypeScript",
   "React",
   "Next.js",
-  "Motion design",
-  "Design systems",
-  "Accessibility",
-  "Core Web Vitals",
-  "WebGL",
-  "Shopify Hydrogen",
-  "Zero drama",
+  "Web Design",
+  "Performance Monitoring",
+  "Ticketing and POS System",
+  "Motion Effects",
+  "Tshirt Branding",
+  "Graphic Design",
 ];
