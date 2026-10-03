@@ -13,23 +13,19 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "halcyon",
-    name: "Halcyon",
-    sector: "Wellness platform",
-    year: "2025",
-    stack: ["Next.js", "TypeScript", "Stripe", "Framer Motion"],
-    role: "Design engineering · Frontend build",
-    tagline: "A booking flow so calm it cut support tickets by a third.",
+    id: "simco",
+    name: "Simco Renewable Solutions Limited",
+    sector: "Solar and Construction",
+    year: "2026",
+    stack: ["Next.js", "TypeScript", "Framer Motion"],
+    role: "Design engineering",
+    tagline: "A professional Portfolio For A Solar and Construction Company",
     description: [
-      "Halcyon needed a booking experience that felt less like a form and more like a slow exhale. We rebuilt the entire flow as a single continuous surface — no page jumps, no dead ends, every state accounted for.",
-      "Every interaction was tuned to a 100ms response budget. The calendar breathes, selections confirm with a soft haptic tick, and the checkout collapses into one quiet step.",
+      "Simco Renewable Solutions Limited is a solar and construction company that specializes in providing sustainable energy solutions. We designed and developed a professional portfolio website to showcase their services, projects, and expertise in the renewable energy sector.",
     ],
-    outcomes: [
-      { value: "−38%", label: "support tickets" },
-      { value: "0.8s", label: "LCP on 3G" },
-      { value: "+27%", label: "completed bookings" },
+    outcomes: [,
     ],
-    image: "https://image.qwenlm.ai/generated-images/fb96b7db-350b-45ec-90ce-179d7f4e4289/_result.png",
+    image: "src/assets/aarondev.jpg",
   },
   {
     id: "fernway",
