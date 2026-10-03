@@ -152,13 +152,7 @@ export default function Work() {
             Built to feel <span className="text-outline">weightless</span>.
           </>
         }
-        right={
-          <p className="font-mono text-xs leading-relaxed tracking-[0.14em] text-fog">
-            2019 → 2026 · 48 shipped
-            <br />
-            four favourites, zero regrets
-          </p>
-        }
+       
       />
 
       <div className="grid gap-14 lg:grid-cols-12">
