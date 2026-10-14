@@ -1,4 +1,3 @@
-import aarondevImg from '../assets/aarondev.jpg';
 export type Project = {
   id: string;
   name: string;
@@ -29,7 +28,7 @@ export const projects: Project[] = [
       { value: "0.8s", label: "LCP on 3G" },
       { value: "+27%", label: "completed bookings" },
     ],
-    image: aarondevImg,
+    image: https://tcw6vf1mwkj6u00r.public.blob.vercel-storage.com/aarondev.jpg
   },
   {
     id: "fernway",
