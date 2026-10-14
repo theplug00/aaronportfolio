@@ -74,7 +74,7 @@ body {
 
 /* strict black & white imagery */
 img {
-  filter: grayscale(1) contrast(1.06);
+
 }
 
 .noise-overlay {
