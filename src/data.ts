@@ -1,3 +1,4 @@
+import aarondevImg from '@/assets/aarondev.jpg';
 export type Project = {
   id: string;
   name: string;
