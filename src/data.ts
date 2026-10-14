@@ -29,7 +29,7 @@ export const projects: Project[] = [
       { value: "0.8s", label: "LCP on 3G" },
       { value: "+27%", label: "completed bookings" },
     ],
-    image: "src/assets/aarondev.jpg",
+    image: aarondevImg,
   },
   {
     id: "fernway",
