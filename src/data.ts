@@ -31,23 +31,22 @@ export const projects: Project[] = [
     image: "https://tcw6vf1mwkj6u00r.public.blob.vercel-storage.com/aarondev.jpg"
   },
   {
-    id: "fernway",
-    name: "Fernway",
-    sector: "Botanical e-commerce",
-    year: "2025",
-    stack: ["Shopify Hydrogen", "React", "GSAP", "Sanity"],
+    id: "stylehub",
+    name: "Stylehub",
+    sector: "E-commerce",
+    year: "2026",
+    stack: ["TypeScript", "React", "Supabase", "TailwindCSS"],
     role: "Frontend build · Motion system",
-    tagline: "Editorial commerce for a plant studio — stories first, cart always near.",
+    tagline: "Professional e-commerce Dashboard",
     description: [
-      "Fernway sells rare plants the way galleries sell art. We built a storefront where each species gets a full editorial moment — care rituals, origins, slow zooming photography — while the cart stays one thumb away at all times.",
-      "The motion system is deliberate: nothing moves unless it guides. Scroll choreography was tested with real customers until it felt inevitable rather than decorative.",
+      "Stylehub is a professional clothing and fashion store operating in Ghana. We designed and developed a professional e-commerce dashboard to showcase their products, services, and expertise in the fashion industry.", 
     ],
     outcomes: [
       { value: "+52%", label: "conversion rate" },
-      { value: "99", label: "Lighthouse perf" },
+      { value: "99", label: "Finish Rate" },
       { value: "4.9★", label: "shop rating" },
     ],
-    image: "https://image.qwenlm.ai/generated-images/911daf95-bff7-4cc5-94df-01bfff654dfd/_result.png",
+    image: "https://jhwfrinhro68icre.private.blob.vercel-storage.com/stylehub%20dashboard.jpg?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfSkhXZlJJbmhSTzY4aUNSZSIsIm93bmVySWQiOiJ0ZWFtX1dUREZpekt2Z2JzQmg3MGI1Zm9WbVpERiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkzMDU0MzE1MzI0LCJpYXQiOjE3OTMwMTExMDM0Mjh9.zwkwmrkLdr2daNGTjce9kbo50EQ0a-t7kdn0Bknlfl0&vercel-blob-signature=Nuzvlah5HxQJ8Hwqw5nGdmilRDMWPi60bNR1ErvMo8I",
   },
   {
     id: "orbitpay",
